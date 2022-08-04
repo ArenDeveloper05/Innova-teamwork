@@ -8,6 +8,7 @@ nav{
     position: fixed;
     top: 0%;
     z-index: 100;
+    transition: 0.3s;
     
     .nav-logo{
         width: 150px;
@@ -53,6 +54,7 @@ nav{
         font-size: 16px;
         color:#8345da;
         font-weight: 700;
+        
     }
 
 }
