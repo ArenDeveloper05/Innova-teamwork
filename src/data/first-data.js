@@ -120,5 +120,6 @@ export const firstData = [
             alt: "C/C++"
         },
         text: "C/C++"
-    }
+    },
+    
 ]
