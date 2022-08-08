@@ -1,0 +1,41 @@
+.third-main-side-wrapper{
+    width:1100px;
+    margin:auto;
+    &-textes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            margin-left: 130px;
+            width: 488px;
+            height: 68px;
+            font-family: 'Archivo Black';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 68px;
+        }
+        p{
+            width: 450px;
+            height: 48px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+        }
+    }
+    &-cards{
+        margin-left: 65px;
+        img{
+            width: 320px;
+            height: 250px;
+            filter: drop-shadow(0px 8px 20px #EEEEEE);
+        }
+        img:hover{
+            border:1px solid  blueviolet;
+            box-shadow: 0px 8px 20px rgb(217, 194, 238);
+        }
+    }
+}
